@@ -51,6 +51,7 @@ gap: 100px;
     text-decoration: none;
     color: black;
     margin-left: 20px;
+    font-weight: 400;
 
 }
 .analytics_text {
@@ -156,4 +157,88 @@ top: 10px;
     position: relative;
     right: 765px;
     top: 2px;
+}
+.dash_text {
+    font-size: 30px;
+    padding-left: 3px;
+    font-weight: 400;
+}
+.dash_svg {
+    position: relative;
+    top: 10px;
+}
+.main_stats {
+    margin-top: 45px;
+}
+.card {
+    border: 1px solid rgb(0, 168, 252);
+padding-top: 40px;
+padding-right: 90px;
+padding-bottom: 15px;
+padding-left: 70px;
+padding-left: 90px;
+background-color: rgb(0, 168, 252);
+border-radius: 20px;
+
+
+}
+.yellow_card {
+    background-color: hwb(53 80% 7%);
+    border: 1px solid hwb(53 80% 7%);
+}
+.purple_card {
+   background-color:rgb(196, 166, 225);
+   border: 1px solid rgb(196, 166, 225) ;
+}
+
+.card_flex {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-top: 30px;
+    
+}
+.card_text {
+    text-align: center;
+    font-weight: 400;
+}
+.card_image{
+    text-align: center;
+    position: relative;
+    left: 50px;
+    bottom: 15px;
+   
+}
+.numbers_of_likes {
+    text-align: center;
+    font-size: 60px;
+}
+.recent_activity {
+    margin-top: 40px;
+  
+   
+}
+.rec_text { font-size: 25px;
+    position: relative;
+    bottom: 8px;
+    left: 5px;
+
+}
+table {
+  
+    width: 100%;
+    border-collapse:collapse;
+    height: 350px;
+    margin-top: 20px;
+    
+}
+td {
+    font-size: 25px;
+}
+.first_table {
+    font-weight: 800;
+}
+.checkbox {
+  position: relative;
+  right: 10px;
 }
